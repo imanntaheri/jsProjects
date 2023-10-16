@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+
+}
+
+body {
+    height: 100vh;
+    background: url(pexels-suzy-hazelwood-1226398.jpg) no-repeat center center/ cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#add-task-container {
+    width: 350px;
+    padding: 20px 10px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 3px;
+    display: flex;
+}
+
+#input-task {
+    flex: 5;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+#add-task {
+    flex: 1;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: #028500;
+    border: #028500 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.5s;
+
+}
+
+#add-task:hover {
+    background-color: #028500;
+    color: #fff;
+    cursor: pointer;
+}
+
+.task {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 0 3px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.task li {
+    list-style: none;
+    padding: 5px;
+    font-size: 1.3rem;
+    margin: 10px;
+    flex: 4;
+}
+
+.task button {
+    background-color: #fff;
+    border-radius: 10px;
+    flex: 1;
+    cursor: pointer;
+}
+
+.task .checkTask {
+    color: #ffa500;
+    margin: 3px 10px;
+    font-size: 1.5rem;
+    border: 2px solid #ffa500;
+}
+
+.task .checkTask:hover {
+    background-color: #ffa500;
+    color: #fff;
+}
+
+.task .deleteTask {
+    color: #ff0000;
+    margin: 3px;
+    font-size: 1.3rem;
+    border: 2px solid #ff0000;
+}
+
+.task .deleteTask:hover {
+    background-color: #ff0000;
+    color: #fff;
+}
